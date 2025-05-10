@@ -118,6 +118,11 @@ class Logic(QMainWindow, Ui_MainWindow):
 
 
     def reset_page_input(self):
+        """
+        This clears the voting input fields on the form
+        like the Voter ID and the candidate radio buttons.
+
+        """
         self.user_id.clear()  # clear after submission
         self.jane_button.setChecked(False)
         self.john_button.setChecked(False)
