@@ -123,7 +123,7 @@ class Logic(QMainWindow, Ui_MainWindow):
         like the Voter ID and the candidate radio buttons.
 
         """
-        self.user_id.clear()  # clear after submission
+        self.id_input.clear()  # clear after submission
         self.jane_button.setChecked(False)
         self.john_button.setChecked(False)
 
