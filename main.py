@@ -1,3 +1,8 @@
+"""
+This file starts the Application
+It sets it up shows the main window, and runs the app
+The logic import imports the logic file that helps the app run
+"""
 from logic import *
 def main():
     application = QApplication([])
